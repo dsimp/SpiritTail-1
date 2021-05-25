@@ -11,7 +11,7 @@ const InputSpirit = ({ drink }) => {
   document.title = "Spirit Tail Home Page";
 
   const mainMenu = search.map((name) => (
-    <Link to={`list/${name}`} key={name} id={name} search>
+    <Link to={`list/${name}`} key={name} id={name}>
       <li> {name} </li>
     </Link>
   ));

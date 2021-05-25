@@ -14,8 +14,8 @@ const SpiritLogo = () => {
         <span className="six">t</span>
         <span className="seven">T</span>
         <span className="eight">a</span>
-        <span className="nine">l</span>
-        <span className="ten">e</span>
+        <span className="nine">i</span>
+        <span className="ten">l</span>
       </header>
     </Link>
   );

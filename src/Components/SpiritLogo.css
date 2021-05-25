@@ -1,59 +1,60 @@
-.headOne {
+header {
   margin: 0;
   padding: 0;
-  color: #8e509b;
+  color: white;
   font-size: 10em;
 }
-.headOne span {
+header span {
   display: table-cell;
   margin: 0;
   padding: 0;
-  animation: animate 5s linear infinite;
+  animation: animate 2.5s linear infinite;
 }
-.one span {
+header span:nth-child(1) {
   animation-delay: 0s;
 }
-.two span {
+header span:nth-child(2) {
   animation-delay: 0.25s;
 }
-.three {
+header span:nth-child(3) {
   animation-delay: 0.5s;
 }
-.four {
+header span:nth-child(4)four {
   animation-delay: 0.75s;
 }
-.five {
+header span:nth-child(5).five {
   animation-delay: 1s;
 }
-.six {
+.header span:nth-child(6)six {
   animation-delay: 1.25s;
 }
-.seven {
+header span:nth-child(7).seven {
   animation-delay: 1.5s;
 }
-.eight {
+header span:nth-child(8).eight {
   animation-delay: 1.75s;
 }
-.nine {
+header span:nth-child(9).nine {
   animation-delay: 2s;
 }
-.ten {
+header span:nth-child(10)ten {
   animation-delay: 2.5s;
 }
 
 @keyframes animate {
   0%,
   100% {
-    color: #00b3ff;
+    color: rgb(31, 17, 226);
     filter: blur(2px);
-    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
-      0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 180px #00b3ff, 0 0 220px #00b3ff,
-      0 0 240px #00b3ff;
+    text-shadow: 0 0 10px rgb(193, 28, 235), 0 0 20px rgb(193, 28, 235),
+      0 0 40px rgb(193, 28, 235), 0 0 80px rgb(193, 28, 235),
+      0 0 120px rgb(193, 28, 235), 0 0 200px rgb(193, 28, 235),
+      0 0 300px rgb(193, 28, 235), 0 0 400px rgb(193, 28, 235);
   }
   5%,
   95% {
-    color: orange;
+    color: white;
     filter: blur(0px);
-    text-shadow: none;
+    text-shadow: 0 0 10px none;
   }
 }
