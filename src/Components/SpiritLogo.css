@@ -3,6 +3,7 @@ header {
   padding: 0;
   color: white;
   font-size: 10em;
+  position: absolute;
 }
 header span {
   display: table-cell;

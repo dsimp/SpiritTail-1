@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import SwitchView from "./SwitchView";
 import { fetchDrinks } from "./redux/drinkActions.js";
 import { connect } from "react-redux";
+import LogoNav from "./LogoNav";
 
 const TheList = ({ match, drink, fetchDrinks }) => {
   const jig = match.params.id;
@@ -21,9 +22,20 @@ const TheList = ({ match, drink, fetchDrinks }) => {
     </Link>
   ));
 
+  const placement = {
+    position: "absolute",
+    left: "100px",
+    top: "100px",
+  };
+
   return (
     <div>
-      <ul>{liquorList}</ul>
+      <div>
+        <LogoNav />
+      </div>
+      <div style={placement}>
+        <ul>{liquorList}</ul>
+      </div>
     </div>
   );
 };
