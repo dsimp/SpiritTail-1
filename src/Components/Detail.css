@@ -1,0 +1,68 @@
+.mix {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.dt {
+  position: relative;
+  top: 100px;
+}
+.containerBox {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: transparent;
+  overflow: hidden;
+}
+.box {
+  position: absolute;
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+.box.box1 {
+  background: wheat;
+  transform-origin: right;
+  transform: perspective(500px) translateX(-50%) rotateY(-15deg);
+}
+.box.box2 {
+  background: wheat;
+  transform-origin: left;
+  transform: perspective(500px) translateX(50%) rotateY(15deg);
+}
+.box h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  white-space: nowrap;
+  left: 0;
+  font-size: 8em;
+  animation: move 10s linear infinite;
+}
+.box.box1 h1 {
+  color: #fff;
+}
+.box.box2 h1 {
+  color: rgba(255, 255, 255, 0.2);
+  left: -100%;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(2400px);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
