@@ -1,0 +1,56 @@
+.wrapper {
+  position: fixed;
+  top: 300px;
+  right: 400px;
+  perspective: 1500px;
+  display: block;
+  width: 1px;
+  margin: 100px;
+}
+.area {
+  position: static;
+  transform-style: preserve-3d;
+  animation-name: rotate;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+.front {
+  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+}
+.back {
+  transform: translateX(-200px) translateY(-200px) translateZ(-200px);
+}
+.right {
+  transform: translateY(-200px) rotateY(90deg);
+}
+.left {
+  transform: translateY(-200px) translateX(-400px) rotateY(90deg);
+}
+.top {
+  transform: translateX(-200px) translateY(-400px) rotateX(90deg);
+}
+.bottom {
+  transform: translateX(-200px) rotateX(90deg);
+}
+
+.drinkpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  .wrapper {
+    display: none;
+  }
+}
