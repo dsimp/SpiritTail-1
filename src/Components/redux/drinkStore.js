@@ -1,7 +1,5 @@
-import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import reducer from "./drinksReducer";
-
-const store = createStore(reducer, applyMiddleware(thunk));
-
-export default store;
+if (process.NODE_ENV === "production") {
+  module.exports = require("./drinkStore.prod");
+} else {
+  module.exports = require("./drinkStore.dev");
+}

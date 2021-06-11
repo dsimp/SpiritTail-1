@@ -4,7 +4,7 @@ import Detail from "./Components/Detail.js";
 import TheList from "./Components/TheList.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Provider } from "react-redux";
-import store from "./Components/redux/drinkStore";
+import store from "./Components/redux/drinkStore.dev";
 
 const App = () => {
   return (

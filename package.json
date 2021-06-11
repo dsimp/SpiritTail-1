@@ -2,7 +2,10 @@
   "name": "spirit-tail",
   "description": "Djvon's Cocktail React App",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js --port 3001"
+    "start": "webpack-dev-server --config webpack.config.dev.js --port 3001",
+    "clean:build": "rimraf ./build && mkdir build",
+    "prebuild": "clean:build",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "dependencies": {
     "bootstrap": "4.3.1",
