@@ -253,7 +253,7 @@ a:focus-within {
     left: 44px;
   }
   .linkCon {
-    display: none;
+    display: block;
     position: absolute;
     background-color: rgb(179, 237, 245);
     z-index: 4;
@@ -295,11 +295,6 @@ a:focus-within {
   a:focus-within {
     background-color: teal;
     color: azure;
-  }
-
-  .menuMake:focus-within .linkCon {
-    display: block;
-    border-radius: 40px;
   }
 
   button {
