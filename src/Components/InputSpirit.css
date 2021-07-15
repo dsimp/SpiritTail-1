@@ -264,18 +264,6 @@ a:focus-within {
     top: 0.4in;
   }
 
-  .linkCon::-webkit-scrollbar {
-    width: 7px;
-  }
-
-  .linkCon::-webkit-scrollbar-track {
-    background: fuchsia;
-  }
-
-  .linkCon::-webkit-scrollbar-thumb {
-    background: white;
-  }
-
   ul {
     list-style-type: none;
   }
@@ -289,12 +277,6 @@ a:focus-within {
     display: block;
     min-width: 160px;
     padding: 12px 16px;
-  }
-
-  .linkCon a:hover,
-  a:focus-within {
-    background-color: teal;
-    color: azure;
   }
 
   button {
@@ -318,9 +300,6 @@ a:focus-within {
   }
 
   .spiritlogo {
-    position: absolute;
-    top: 270px;
-    width: 50%;
     display: none;
   }
 
