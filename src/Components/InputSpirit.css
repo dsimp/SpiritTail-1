@@ -230,6 +230,7 @@ a:focus-within {
   }
 
   .menu {
+    display: none;
     background: wheat;
     animation: pulse 1000ms infinite;
   }
