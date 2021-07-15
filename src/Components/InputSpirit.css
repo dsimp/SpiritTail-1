@@ -298,6 +298,7 @@ a:focus-within {
   }
 
   button {
+    display: none;
     position: absolute;
     margin: auto;
     top: 0;
