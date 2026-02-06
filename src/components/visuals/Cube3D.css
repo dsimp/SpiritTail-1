@@ -1,0 +1,69 @@
+/* Mobile Optimization: Only spin and show interactively on hover-capable devices */
+@media (hover: hover) {
+  .cube-overlay-container {
+    display: block;
+  }
+}
+
+@media (hover: none) {
+  .cube-overlay-container {
+    display: none; /* Hide on touch devices */
+  }
+}
+
+.cube-overlay-container {
+  /* Default styles */
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  pointer-events: none; /* Let clicks pass through */
+}
+
+.scene {
+  width: 300px;
+  height: 300px;
+  perspective: 800px;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spinCube 25s infinite linear;
+}
+
+.cube__face {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--neon-cyan);
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.3);
+  border-radius: 20px; /* Smooth corners */
+  overflow: hidden; /* Crop images to corners */
+  opacity: 0.95;
+}
+
+.cube__face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Width 300px -> translateZ is 150px */
+.cube__face--front  { transform: rotateY(  0deg) translateZ(150px); }
+.cube__face--right  { transform: rotateY( 90deg) translateZ(150px); }
+.cube__face--back   { transform: rotateY(180deg) translateZ(150px); }
+.cube__face--left   { transform: rotateY(-90deg) translateZ(150px); }
+/* Top/Bottom still exist but mostly hidden by angle, keeping for completeness or removing if strictly not needed. */
+.cube__face--top    { transform: rotateX( 90deg) translateZ(150px); background: #000; }
+.cube__face--bottom { transform: rotateX(-90deg) translateZ(150px); background: #000; }
+
+@keyframes spinCube {
+  0% { transform: rotateX(0deg) rotateY(0deg); } /* Flat angle */
+  100% { transform: rotateX(0deg) rotateY(360deg); }
+}

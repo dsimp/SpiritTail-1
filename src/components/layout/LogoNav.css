@@ -1,0 +1,44 @@
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--neon-cyan);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.logohead {
+  display: flex;
+  align-items: center;
+}
+
+.h1logo {
+  font-family: var(--font-header);
+  font-size: 2rem;
+  margin: 0;
+  color: var(--neon-cyan);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px var(--neon-cyan);
+  transition: all 0.3s;
+}
+
+.h1logo:hover {
+  color: #fff;
+  text-shadow: 0 0 20px var(--neon-pink);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}

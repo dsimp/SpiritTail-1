@@ -1,0 +1,214 @@
+.detail-page {
+  min-height: 100vh;
+  background: var(--dark-bg);
+  color: #fff;
+}
+
+.detail-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid var(--neon-cyan);
+  padding-bottom: 1rem;
+}
+
+.drink-title {
+  font-size: 4rem;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 20px var(--neon-pink);
+  letter-spacing: 5px;
+}
+
+.hologram-badge {
+  background: rgba(0, 243, 255, 0.1);
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  animation: pulse 2s infinite;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+@media (max-width: 900px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+  .drink-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Visual Module */
+.visual-module {
+  perspective: 1000px; /* Enable 3D space */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.main-image-frame {
+  position: relative;
+  /* Removed border/shadow for minimalism */
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Deep shadow */
+}
+
+.main-image-frame:hover {
+  /* transform: rotateY(180deg); Removed per user request */
+  transform: scale(1.02); /* Subtle scale instead */
+  transition: transform 0.5s ease;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  backface-visibility: hidden; /* Hide back when rotated */
+}
+
+/* Optional: Back of the card (holographic data or logo?) 
+   If not added, it will just be the reversed image or blank.
+   For now, we just rotate the image. But 180deg usually shows the back. 
+   Ideally we just do a tilt (rotateY(20deg)). 
+   But user asked for "3d rotation". A 360 spin is also possible.
+   "Orbit" on hover.
+   Let's do a complex tilt or a continuous spin on hover.
+   "3d rotation of the actual cocktail". 
+   Let's do a continuous slow rotation? Or a tilt?
+   User said "on hover ... rotation".
+   Let's stick to a nice Perspective Tilt for now, or a 360 spin.
+   Let's go with a 360 spin on hover for "flashy" but minimalist. */
+/* Removed 3D Rotation block */
+
+/* Removed Scan Line */
+
+/* Minimalist Button */
+.video-btn {
+  background: transparent;
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  padding: 1rem 2rem;
+  font-family: var(--font-header);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 50px; /* Pill shape */
+}
+
+.video-btn:hover {
+  background: var(--neon-cyan);
+  color: #000;
+  box-shadow: 0 0 20px var(--neon-cyan);
+}
+
+/* Data Module */
+.data-module {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.glass-panel h2 {
+  font-size: 1.5rem;
+  color: var(--neon-pink);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(188, 19, 254, 0.3);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.ingredient-chip {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.ingredient-chip:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-cyan);
+  background: rgba(0, 243, 255, 0.1);
+}
+
+.ingredient-chip img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.5));
+}
+
+.measure {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--neon-cyan);
+  font-weight: bold;
+}
+
+.name {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.instructions-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
+.glass-type {
+  margin-top: 2rem;
+  font-family: var(--font-header);
+  color: var(--neon-cyan);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1rem;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; text-shadow: 0 0 10px var(--neon-cyan); }
+  100% { opacity: 0.6; }
+}

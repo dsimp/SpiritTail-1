@@ -1,0 +1,38 @@
+.roulette-btn {
+  background: transparent;
+  border: 1px solid var(--neon-pink);
+  color: var(--neon-pink);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-header);
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.roulette-btn:hover {
+  background: var(--neon-pink);
+  color: #fff;
+  box-shadow: 0 0 15px var(--neon-pink);
+  transform: translateY(-2px);
+}
+
+.roulette-btn.spinning {
+  background: var(--neon-pink);
+  color: #fff;
+  animation: flash 0.2s infinite alternate;
+  cursor: wait;
+}
+
+@keyframes flash {
+  from { opacity: 1; }
+  to { opacity: 0.5; }
+}
+
+.roulette-icon {
+  font-size: 1.2rem;
+}

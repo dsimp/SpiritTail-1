@@ -1,0 +1,158 @@
+.mixer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px; /* Taller for pouring source */
+  perspective: 1000px;
+}
+
+.mixer-stage {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Pouring Source Animation */
+.pouring-source-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  animation: floatIn 0.5s ease-out;
+}
+
+.pouring-source-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid var(--neon-cyan);
+  box-shadow: 0 0 15px var(--neon-cyan);
+  animation: tiltPour 2s ease-in-out infinite; /* Tilt back and forth */
+}
+
+.liquid-stream {
+  width: 6px;
+  height: 200px; /* Reach the glass */
+  background: #fff;
+  margin-top: -10px; /* Connect to image */
+  opacity: 0.8;
+  animation: streamFlow 0.5s linear infinite;
+  box-shadow: 0 0 10px currentColor;
+}
+
+@keyframes tiltPour {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(45deg); }
+  80% { transform: rotate(45deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes streamFlow {
+  0% { opacity: 0.6; height: 0; }
+  10% { opacity: 0.9; height: 200px; }
+  90% { opacity: 0.9; height: 200px; }
+  100% { opacity: 0; height: 0; }
+}
+
+@keyframes floatIn {
+  from { opacity: 0; transform: translate(-50%, -20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.glass {
+  width: 120px;
+  height: 200px;
+  border-left: 2px solid rgba(255, 255, 255, 0.3);
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 20px 20px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.1);
+  transition: transform 0.3s;
+  z-index: 5;
+}
+
+.liquid-stack {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse; /* Stack from bottom up */
+  justify-content: flex-start;
+}
+
+.liquid-layer {
+  width: 100%;
+  transition: all 0.5s ease-out;
+  position: relative;
+  /* Layers simply stack based on height % */
+}
+
+/* Actions */
+.mixer-container.shaking .glass {
+  animation: shake 0.5s infinite;
+}
+
+.mixer-container.stirring .liquid-stack {
+  animation: swirl 2s infinite linear;
+}
+
+.mixer-container.serving .glass {
+  box-shadow: 0 0 30px var(--neon-cyan);
+  border-color: var(--neon-cyan);
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes swirl {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+.status-readout {
+  margin-top: 2rem;
+  font-family: var(--font-header);
+  color: var(--neon-cyan);
+  text-align: center;
+  width: 200px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 2px;
+  background: #333;
+  margin-top: 5px;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--neon-pink);
+  transition: width 0.5s;
+}

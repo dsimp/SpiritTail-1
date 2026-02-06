@@ -1,0 +1,110 @@
+.list-page {
+  min-height: 100vh;
+  background: var(--dark-bg);
+}
+
+.list-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.spirit-title {
+  text-align: center;
+  color: var(--neon-cyan);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
+}
+
+.cocktail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.cocktail-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  /* Removed heavy glass borders */
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cocktail-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.cocktail-card:hover .card-image img {
+  transform: scale(1.05); /* Softer scale */
+}
+
+/* Minimalist Button */
+.view-btn {
+  padding: 0.8rem 1.5rem;
+  background: #fff;
+  border: none;
+  color: #000;
+  font-family: var(--font-header);
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+
+.view-btn:hover {
+  background: var(--neon-cyan);
+  transform: translateY(-2px);
+}
+
+.card-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spinner-center {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
