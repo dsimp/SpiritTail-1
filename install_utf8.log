@@ -1,0 +1,1206 @@
+﻿node.exe : npm 
+verbose cli 
+C:\Program 
+Files\nodejs\node.exe 
+C:\Users\simps\AppData
+\Roaming\npm\node_modu
+les\npm\bin\npm-cli.js
+At C:\Program Files\no
+dejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (npm verbos   
+ e cli...\bin\npm-    
+cli.js:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+npm info using 
+npm@11.2.0
+npm info using 
+node@v22.14.0
+npm warn Unknown user 
+config 
+"msvs_version". This 
+will stop working in 
+the next major 
+version of npm.
+npm warn Unknown user 
+config "python". This 
+will stop working in 
+the next major 
+version of npm.
+npm verbose title npm 
+install
+npm verbose argv 
+"install" 
+"--loglevel" "verbose"
+npm verbose logfile 
+logs-max:10 dir:C:\Use
+rs\simps\AppData\Local
+\npm-cache\_logs\2026-
+02-10T21_19_46_358Z-
+npm verbose logfile C:
+\Users\simps\AppData\L
+ocal\npm-cache\_logs\2
+026-02-10T21_19_46_358
+Z-debug-0.log
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@reduxjs%2fto
+olkit 225ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react 173ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-redux 
+55ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2freac
+t 124ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/redux 47ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@vitejs%2fplu
+gin-react 75ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/vite 957ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fnode
+ 320ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/less 47ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/lightningcss 
+39ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/sass 55ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/sass-embedded
+ 52ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/stylus 47ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/sugarss 50ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/postcss 66ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/terser 64ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/bootstrap 
+62ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@popperjs%2fc
+ore 74ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/immer 89ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/prop-types 
+61ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-dom 
+658ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-router-
+dom 94ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-spinner
+s-kit 69ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-toastif
+y 62ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/redux-thunk 
+64ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/reselect 
+119ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/gh-pages 
+69ms (cache miss)
+npm http cache https:/
+/registry.npmjs.org/im
+mer 15ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@standard-sch
+ema%2fspec 97ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fcore
+ 141ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fbabe
+l__core 56ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-refresh
+ 153ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@standard-sch
+ema%2futils 316ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rolldown%2fp
+luginutils 93ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fplug
+in-transform-react-jsx
+-self 53ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/esbuild 67ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/po
+stcss 7ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/rollup 192ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/fsevents 
+165ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fplug
+in-transform-react-jsx
+-source 323ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/async 64ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/globby 78ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/fs-extra 
+69ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/commander 
+46ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/filenamify 
+41ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/email-address
+es 54ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/find-cache-di
+r 83ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/loose-envify 
+51ms (cache miss)
+npm http cache https:/
+/registry.npmjs.org/lo
+ose-envify 4ms (cache 
+hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/object-assign
+ 45ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fuse-
+sync-external-store 
+101ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-is 
+196ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/scheduler 
+283ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/history 
+152ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/tiny-warning 
+53ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/use-sync-exte
+rnal-store 378ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/react-router 
+230ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/tiny-invarian
+t 119ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2frunt
+ime 229ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/polished 
+135ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/clsx 61ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/styled-compon
+ents 160ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/semver 64ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/debug 79ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/json5 84ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/gensync 41ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2ftype
+s 69ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fpars
+er 79ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+ers 73ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2ftemp
+late 94ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2ftrav
+erse 81ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fgene
+rator 92ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fcode
+-frame 59ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/convert-sourc
+e-map 57ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+fremapping 66ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-compilation-targets
+ 82ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-module-transforms 
+102ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-plugin-utils 72ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/@b
+abel%2ftypes 14ms 
+(cache hit)
+npm http cache https:/
+/registry.npmjs.org/@b
+abel%2fparser 22ms 
+(cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-plugin-utils 65ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fbabe
+l__traverse 88ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fbabe
+l__template 114ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2fbabe
+l__generator 82ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/@b
+abel%2fcore 9ms 
+(cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/picocolors 
+53ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/js-tokens 
+67ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-validator-identifie
+r 70ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/jsesc 51ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+ftrace-mapping 72ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+fgen-mapping 90ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/lru-cache 
+56ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/browserslist 
+61ms (cache miss)
+npm http cache https:/
+/registry.npmjs.org/@b
+abel%2ftraverse 10ms 
+(cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fcomp
+at-data 86ms (cache 
+miss)
+npm http cache https:/
+/registry.npmjs.org/de
+bug 39ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-validator-option 
+101ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-module-imports 
+68ms (cache miss)
+npm http cache https:/
+/registry.npmjs.org/@j
+ridgewell%2fgen-mappin
+g 11ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-globals 77ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/@j
+ridgewell%2ftrace-mapp
+ing 47ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-string-parser 74ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/ms 56ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+fsourcemap-codec 62ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+fsourcemap-codec 64ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@jridgewell%2
+fresolve-uri 88ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/baseline-brow
+ser-mapping 39ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/node-releases
+ 75ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/caniuse-lite 
+129ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/update-browse
+rslist-db 48ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/electron-to-c
+hromium 178ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/yallist 79ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/br
+owserslist 7ms (cache 
+hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/escalade 
+51ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/filename-rese
+rved-regex 36ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/strip-outer 
+39ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/make-dir 
+41ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/trim-repeated
+ 81ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/pkg-dir 47ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/graceful-fs 
+41ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/jsonfile 
+46ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/commondir 
+59ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/universalify 
+35ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/slash 46ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/ignore 48ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/merge2 42ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/dir-glob 
+47ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/array-union 
+40ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/fast-glob 
+65ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/escape-string
+-regexp 38ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/escape-string
+-regexp 39ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/find-up 40ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/path-type 
+40ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@nodelib%2ffs
+.walk 56ms (cache 
+miss)
+npm http cache https:/
+/registry.npmjs.org/me
+rge2 6ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@nodelib%2ffs
+.stat 68ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/glob-parent 
+38ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/micromatch 
+62ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/is-glob 48ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/fastq 53ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@nodelib%2ffs
+.scandir 65ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/braces 35ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/picomatch 
+46ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/reusify 47ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/run-parallel 
+51ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/queue-microta
+sk 41ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/is-extglob 
+34ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/fill-range 
+40ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/to-regex-rang
+e 39ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/is-number 
+41ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/locate-path 
+34ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/path-exists 
+47ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/p-locate 
+32ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/p-limit 50ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/p-try 41ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/re
+act 22ms (cache hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/resolve-pathn
+ame 49ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/value-equal 
+51ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/path-to-regex
+p 53ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/hoist-non-rea
+ct-statics 54ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/isarray 37ms 
+(cache miss)
+npm http cache https:/
+/registry.npmjs.org/re
+act 24ms (cache hit)
+npm http cache https:/
+/registry.npmjs.org/re
+act-dom 29ms (cache 
+hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/memoize-one 
+46ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/stylis 54ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/merge-anythin
+g 70ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/supports-colo
+r 58ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/stylis-rule-s
+heet 42ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@emotion%2fun
+itless 63ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/babel-plugin-
+styled-components 
+52ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@emotion%2fis
+-prop-valid 70ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/css-to-react-
+native 172ms (cache 
+miss)
+npm http cache https:/
+/registry.npmjs.org/st
+yled-components 11ms 
+(cache hit)
+npm http cache https:/
+/registry.npmjs.org/re
+act 36ms (cache hit)
+npm http cache https:/
+/registry.npmjs.org/re
+act-dom 31ms (cache 
+hit)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fhelp
+er-annotate-as-pure 
+74ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@emotion%2fme
+moize 97ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@babel%2fplug
+in-syntax-jsx 107ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/lodash 43ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/camelize 
+43ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/css-color-key
+words 47ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/postcss-value
+-parser 37ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/is-what 48ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/has-flag 
+44ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-x64 57ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-arm 70ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fai
+x-ppc64 76ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fsu
+nos-x64 48ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fwi
+n32-x64 66ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fda
+rwin-x64 88ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-ia32 62ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fne
+tbsd-x64 64ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fwi
+n32-ia32 58ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fan
+droid-arm 73ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fan
+droid-x64 77ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2ffr
+eebsd-x64 78ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-arm64 79ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-s390x 62ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-ppc64 95ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fop
+enbsd-x64 62ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fwi
+n32-arm64 74ms (cache 
+miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fan
+droid-arm64 65ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fda
+rwin-arm64 82ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2ffr
+eebsd-arm64 84ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-loong64 76ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-riscv64 95ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/nanoid 44ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@esbuild%2fli
+nux-mips64el 85ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/source-map-js
+ 68ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@types%2festr
+ee 46ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-darwin-arm64 95ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-android-arm64 
+91ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-win32-arm64-msvc 
+95ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-arm64-gnu 
+57ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-freebsd-arm64 
+71ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-arm64-musl 
+98ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-android-arm-eabi 
+70ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-arm-gnueabih
+f 77ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-win32-ia32-msvc 
+70ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-loong64-gnu 
+72ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-arm-musleabi
+hf 144ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-riscv64-gnu 
+62ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-loong64-musl
+ 80ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-riscv64-musl
+ 63ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-ppc64-gnu 
+58ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-ppc64-musl 
+110ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-darwin-x64 73ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-s390x-gnu 
+153ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-win32-x64-gnu 
+98ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-win32-x64-msvc 
+86ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-freebsd-x64 62ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-x64-gnu 
+60ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-linux-x64-musl 
+65ms (cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-openbsd-x64 68ms 
+(cache miss)
+npm http fetch GET 
+200 https://registry.n
+pmjs.org/@rollup%2frol
+lup-openharmony-arm64 
+71ms (cache miss)
+npm verbose stack 
+Error: EBUSY: 
+resource busy or 
+locked, copyfile 'C:\U
+sers\simps\Spirit-Tail
+\SpiritTail-1\node_mod
+ules\@esbuild\win32-x6
+4\esbuild.exe' -> 'C:\
+Users\simps\Spirit-Tai
+l\SpiritTail-1\node_mo
+dules\@esbuild\.win32-
+x64-0Xpo6yt9\esbuild.e
+xe'
+npm verbose stack     
+at async 
+Object.copyFile (node:
+internal/fs/promises:6
+20:10)
+npm verbose stack     
+at async moveFile (C:\
+Users\simps\AppData\Ro
+aming\npm\node_modules
+\npm\node_modules\@npm
+cli\fs\lib\move-file.j
+s:42:9)
+npm verbose stack     
+at async Promise.all 
+(index 0)
+npm verbose stack     
+at async moveFile (C:\
+Users\simps\AppData\Ro
+aming\npm\node_modules
+\npm\node_modules\@npm
+cli\fs\lib\move-file.j
+s:36:9)
+npm verbose stack     
+at async 
+Promise.allSettled 
+(index 1)
+npm verbose stack     
+at async 
+[reifyPackages] (C:\Us
+ers\simps\AppData\Roam
+ing\npm\node_modules\n
+pm\node_modules\@npmcl
+i\arborist\lib\arboris
+t\reify.js:325:11)
+npm verbose stack     
+at async 
+Arborist.reify (C:\Use
+rs\simps\AppData\Roami
+ng\npm\node_modules\np
+m\node_modules\@npmcli
+\arborist\lib\arborist
+\reify.js:142:5)
+npm verbose stack     
+at async Install.exec 
+(C:\Users\simps\AppDat
+a\Roaming\npm\node_mod
+ules\npm\lib\commands\
+install.js:149:5)
+npm verbose stack     
+at async Npm.exec (C:\
+Users\simps\AppData\Ro
+aming\npm\node_modules
+\npm\lib\npm.js:208:9)
+npm verbose stack     
+at async 
+module.exports (C:\Use
+rs\simps\AppData\Roami
+ng\npm\node_modules\np
+m\lib\cli\entry.js:67:
+5)
+npm error code EBUSY
+npm error syscall 
+copyfile
+npm error path C:\User
+s\simps\Spirit-Tail\Sp
+iritTail-1\node_module
+s\@esbuild\win32-x64\e
+sbuild.exe
+npm error dest C:\User
+s\simps\Spirit-Tail\Sp
+iritTail-1\node_module
+s\@esbuild\.win32-x64-
+0Xpo6yt9\esbuild.exe
+npm error errno -4082
+npm error EBUSY: 
+resource busy or 
+locked, copyfile 'C:\U
+sers\simps\Spirit-Tail
+\SpiritTail-1\node_mod
+ules\@esbuild\win32-x6
+4\esbuild.exe' -> 'C:\
+Users\simps\Spirit-Tai
+l\SpiritTail-1\node_mo
+dules\@esbuild\.win32-
+x64-0Xpo6yt9\esbuild.e
+xe'
+npm verbose cwd C:\Use
+rs\simps\Spirit-Tail\S
+piritTail-1
+npm verbose os 
+Windows_NT 10.0.22631
+npm verbose node 
+v22.14.0
+npm verbose npm  
+v11.2.0
+npm verbose exit -4082
+npm verbose code -4082
+npm error A complete 
+log of this run can 
+be found in: C:\Users\
+simps\AppData\Local\np
+m-cache\_logs\2026-02-
+10T21_19_46_358Z-debug
+-0.log
