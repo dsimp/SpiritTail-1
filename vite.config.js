@@ -11,9 +11,11 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react/jsx-runtime', 'react-dom/client'],
+  },
   resolve: {
     alias: {
-      src: path.resolve(__dirname, './src'),
     },
   },
 });
