@@ -10,7 +10,7 @@ const App = () => {
   console.log("Rendering App Component");
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/SpiritTail-1">
         <div className="App">
           <Switch>
             <Route path="/" exact component={InputSpirit} />
